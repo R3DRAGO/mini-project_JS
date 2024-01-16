@@ -1,0 +1,28 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    width: 50vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    align-items: center;
+    flex-wrap: wrap;
+}
+p{
+    width: 30%;
+}
+
+button {
+    width: 30%;
+    margin-top: 10px;
+}
